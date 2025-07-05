@@ -21,43 +21,44 @@ By executing **36 structured test cases** and **15 exploratory sessions**, I ide
 
 ## Repository Structure
 
+```bash
 ~/SauceDemoTesting/
 ├── TestPlan/
-│ └── SauceDemo_Test_Plan.md
+│   └── SauceDemo_Test_Plan.md
 ├── TestCases/
-│ └── SauceDemo_TestCases.xlsx
+│   ├── SauceDemo_TestCases.xlsx
+│   ├── Test_Cases_Overview.md
+│   ├── Sorting_Test_Cases.md
+│   ├── Overview_Test_Cases.md
+│   ├── Logout_Test_Cases.md
+│   ├── Login_Test_Cases.md
+│   ├── Finish_Test_Cases.md
+│   ├── Checkout_Test_Cases.md
+│   ├── Cart_Test_Cases.md
+│   └── Screenshots/
 ├── Test Data/
-│ ├── login_credentials.md
-│ └── checkout_users.csv
-├── TestCases/
-│ ├── Test_Cases_Overview.md
-│ ├── Sorting_Test_Cases.md
-│ ├── Overview_Test_Cases.md
-│ ├── Logout_Test_Cases.md
-│ ├── Login_Test_Cases.md
-│ ├── Finish_Test_Cases.md
-│ ├── Checkout_Test_Cases.md
-│ ├── Cart_Test_Cases.md
-│ └── Screenshots/
+│   ├── login_credentials.md
+│   └── checkout_users.csv
 ├── ExecutionResults/
-│ ├── Module_Results_SauceDemo_Tests.md
-│ ├── Module_Results_Login_TCs.md
-│ ├── Module_Results_Logout_TCs.md
-│ ├── Module_Results_Sorting_TCs.md
-│ ├── Module_Results_Cart_TCs.md
-│ ├── Module_Results_Checkout_Info_TCs.md
-│ ├── Module_Results_Overview_TCs.md
-│ ├── Module_Results_Finish_TCs.md
-│ ├── Bug_Retest.md
-│ └── Screenshots/
+│   ├── Module_Results_SauceDemo_Tests.md
+│   ├── Module_Results_Login_TCs.md
+│   ├── Module_Results_Logout_TCs.md
+│   ├── Module_Results_Sorting_TCs.md
+│   ├── Module_Results_Cart_TCs.md
+│   ├── Module_Results_Checkout_Info_TCs.md
+│   ├── Module_Results_Overview_TCs.md
+│   ├── Module_Results_Finish_TCs.md
+│   ├── Bug_Retest.md
+│   └── Screenshots/
 ├── Reports/
-│ ├── Daily_Report_01-07-2025.md
-│ ├── Daily_Report_02-07-2025.md
-│ ├── Daily_Report_03-07-2025.md
-│ ├── Daily_Report_04-07-2025.md
-| ├── Daily_Report_04-07-2025.md
-│ └── Final_Report.md
+│   ├── Daily_Report_01-07-2025.md
+│   ├── Daily_Report_02-07-2025.md
+│   ├── Daily_Report_03-07-2025.md
+│   ├── Daily_Report_04-07-2025.md
+│   └── Final_Report.md
 └── README.md
+```
+
 
 ---
 
