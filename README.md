@@ -26,7 +26,7 @@ By executing **36 structured test cases** and **15 exploratory sessions**, I ide
 ├── TestPlan/
 │   └── SauceDemo_Test_Plan.md
 ├── TestCases/
-│   ├── SauceDemo_TestCases.xlsx
+│   ├── SauceDemo_TestCases.md
 │   ├── Test_Cases_Overview.md
 │   ├── Sorting_Test_Cases.md
 │   ├── Overview_Test_Cases.md
