@@ -62,6 +62,7 @@ The project involved structured test case writing and execution, bug reporting, 
 │ └── SauceDemo_TestCases.xlsx
 ├── Test Data/
 │ ├── login_credentials.md
+│ ├── README.md
 │ └── checkout_users.csv
 ├── TestCases/
 │ ├── Test_Cases_Overview.md
