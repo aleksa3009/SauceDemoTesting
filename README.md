@@ -17,6 +17,8 @@ This repository contains all artifacts produced during a focused five‑day manu
 
 By executing **36 structured test cases** and **15 exploratory sessions**, I identified **14 defects**, documented with clear reproduction steps and screenshots.
 
+**Note:** This is a personal portfolio project. A few of the reported bugs were intentionally fabricated to demonstrate defect documentation and reporting skills.
+
 ---
 
 ## Repository Structure
@@ -38,6 +40,7 @@ By executing **36 structured test cases** and **15 exploratory sessions**, I ide
 │   └── Screenshots/
 ├── Test Data/
 │   ├── login_credentials.md
+│   ├── README.md
 │   └── checkout_users.csv
 ├── ExecutionResults/
 │   ├── Module_Results_SauceDemo_Tests.md
@@ -55,6 +58,7 @@ By executing **36 structured test cases** and **15 exploratory sessions**, I ide
 │   ├── Daily_Report_02-07-2025.md
 │   ├── Daily_Report_03-07-2025.md
 │   ├── Daily_Report_04-07-2025.md
+│   ├── Daily_Report_05-07-2025.md
 │   └── Final_Report.md
 └── README.md
 ```
@@ -65,7 +69,7 @@ By executing **36 structured test cases** and **15 exploratory sessions**, I ide
 ## Tools & Environment
 
 - **Operating System:** Ubuntu 22.04 LTS  
-- **Browser:** Google Chrome 137.0 and 138.0 (desktop) & DevTools mobile emulation (iPhone X)  
+- **Browser:** Google Chrome 137.0.7151.119 and 138.0.7204.100   
 - **Test Management:** Markdown files in VS Code & TestRail 
 - **Bug Tracking:** GitHub Issues  
 - **Screenshots:** Lightshot  and LibreOffice Draw
@@ -98,11 +102,11 @@ All execution logs, timestamps, and findings reside under **Reports/** and **Exe
 | Checkout – Overview  |          6 |    4 |    2 |           2 |
 | Checkout – Finish    |          3 |    1 |    2 |           2 |
 | Logout               |          1 |    1 |    0 |           0 |
-| **Total**            |         36 |   22 |   14 |          13 |
+| **Total**            |         36 |   22 |   14 |          14 |
 
 - **Exploratory Tests Executed:** 15  
 - **Total Bugs Reported:** 14  
-- **Average Duration per TC:** ~10 min  
+- **Average Duration per TC:** 10 min  
 
 ---
 
