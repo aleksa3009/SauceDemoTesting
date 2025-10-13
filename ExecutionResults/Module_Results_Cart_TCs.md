@@ -39,7 +39,7 @@
 **Steps:** Navigate away and return  
 **Result:** FAIL  
 **Actual:** Cart emptied unexpectedly  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_04_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_04_fail.png)  
 **End Time:** 02-07-2025 15:29  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -59,7 +59,7 @@
 **Steps:** Open cart with no items  
 **Result:** FAIL  
 **Actual:** No “empty cart” message displayed  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_06_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_06_fail.png)  
 **End Time:** 02-07-2025 15:36  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -70,7 +70,7 @@
 **Steps:** Click Checkout on empty cart  
 **Result:** FAIL  
 **Actual:** Navigated to checkout info page anyway  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_07_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_07_fail.png)  
 **End Time:** 02-07-2025 15:40  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

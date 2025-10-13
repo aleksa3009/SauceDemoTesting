@@ -30,7 +30,7 @@
 **Steps:** Leave username blank, enter password  
 **Result:** FAIL  
 **Actual:** Error message not displayed; generic placeholder shown  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_LOGIN_03_fail.png)  
+![Screenshot](./Screenshots/TC_Login_03_fail.png)  
 **End Time:** 02-07-2025 13:23  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -50,7 +50,7 @@
 **Steps:** Enter `' ; DROP TABLE users; --` in username  
 **Result:** FAIL  
 **Actual:** Application crashed briefly, console error  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_LOGIN_05_fail.png)  
+![Screenshot](./Screenshots/TC_Login_03_fail.png)  
 **End Time:** 02-07-2025 13:30  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -106,7 +106,7 @@
 **Steps:** Select Price (high to low)  
 **Result:** FAIL  
 **Actual:** Two items out of order  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_04_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_04_fail.png)  
 **End Time:** 02-07-2025 14:27  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -117,7 +117,7 @@
 **Steps:** Switch between sort options  
 **Result:** FAIL  
 **Actual:** Random shuffle observed on second sort  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_05_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_05_fail.png)  
 **End Time:** 02-07-2025 14:31  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -128,7 +128,7 @@
 **Steps:** Sort then reload page  
 **Result:** FAIL  
 **Actual:** Sort resets to default  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_06_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_06_fail.png)  
 **End Time:** 02-07-2025 14:35  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -166,7 +166,7 @@
 **Steps:** Navigate away and return  
 **Result:** FAIL  
 **Actual:** Cart emptied unexpectedly  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_04_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_04_fail.png)  
 **End Time:** 02-07-2025 15:29  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -186,7 +186,7 @@
 **Steps:** Open cart with no items  
 **Result:** FAIL  
 **Actual:** No “empty cart” message displayed  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_06_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_06_fail.png)  
 **End Time:** 02-07-2025 15:36  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -197,7 +197,7 @@
 **Steps:** Click Checkout on empty cart  
 **Result:** FAIL  
 **Actual:** Navigated to checkout info page anyway  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CART_07_fail.png)  
+![Screenshot](./Screenshots/TC_Cart_07_fail.png)  
 **End Time:** 02-07-2025 15:40  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -217,7 +217,7 @@
 **Steps:** Leave FirstName blank  
 **Result:** FAIL  
 **Actual:** Generic “Error” toast shown without field reference  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CHECKOUT_INFO_02_fail.png)  
+![Screenshot](./Screenshots/TC_Checkout_Info_02_fail.png)  
 **End Time:** 02-07-2025 15:52  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -255,7 +255,7 @@
 **Steps:** Enter “ABCDE” in ZIP  
 **Result:** FAIL  
 **Actual:** No format validation, allowed to continue  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CHECKOUT_INFO_06_fail.png)  
+![Screenshot](./Screenshots/TC_Checkout_Info_06_fail.png)  
 **End Time:** 02-07-2025 16:08  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -275,7 +275,7 @@
 **Steps:** Calculate tax manually  
 **Result:** FAIL  
 **Actual:** Tax off by 0.02  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_OVERVIEW_02_fail.png)  
+![Screenshot](./Screenshots/TC_Overview_02_fail.png)  
 **End Time:** 02-07-2025 16:22  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -313,7 +313,7 @@
 **Steps:** Browser back, then Back to Products  
 **Result:** FAIL  
 **Actual:** Browser back returned to overview again  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_OVERVIEW_06_fail.png)  
+![Screenshot](./Screenshots/TC_Overview_06_fail.png)  
 **End Time:** 02-07-2025 16:36  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -333,7 +333,7 @@
 **Steps:** Click Cancel on overview  
 **Result:** FAIL  
 **Actual:** Returned to inventory, cart cleared  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_FINISH_02_fail.png)  
+![Screenshot](./Screenshots/TC_Finish_02_fail.png)  
 **End Time:** 02-07-2025 16:52  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -344,7 +344,7 @@
 **Steps:** Use browser back on success page  
 **Result:** FAIL  
 **Actual:** Navigated back to overview page  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_FINISH_03_fail.png)  
+![Screenshot](./Screenshots/TC_Finish_03_fail.png)  
 **End Time:** 02-07-2025 16:56  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

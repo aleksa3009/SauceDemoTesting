@@ -21,7 +21,7 @@
 **Steps:** Calculate tax manually  
 **Result:** FAIL  
 **Actual:** Tax off by 0.02  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_OVERVIEW_02_fail.png)  
+![Screenshot](./Screenshots/TC_Overview_02_fail.png)  
 **End Time:** 02-07-2025 16:22  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -59,7 +59,7 @@
 **Steps:** Browser back, then Back to Products  
 **Result:** FAIL  
 **Actual:** Browser back returned to overview again  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_OVERVIEW_06_fail.png)  
+![Screenshot](./Screenshots/TC_Overview_06_fail.png)  
 **End Time:** 02-07-2025 16:36  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

@@ -30,7 +30,7 @@
 **Steps:** Leave username blank, enter password  
 **Result:** FAIL  
 **Actual:** Error message not displayed; generic placeholder shown  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_LOGIN_03_fail.png)  
+![Screenshot](./Screenshots/TC_Login_03_fail.png)  
 **End Time:** 02-07-2025 13:23  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -50,7 +50,7 @@
 **Steps:** Enter `' ; DROP TABLE users; --` in username  
 **Result:** FAIL  
 **Actual:** Application crashed briefly, console error  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_LOGIN_05_fail.png)  
+![Screenshot](./Screenshots/TC_Login_05_fail.png)  
 **End Time:** 02-07-2025 13:30  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

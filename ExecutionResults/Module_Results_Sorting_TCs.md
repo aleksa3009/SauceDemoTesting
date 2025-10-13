@@ -39,7 +39,7 @@
 **Steps:** Select Price (high to low)  
 **Result:** FAIL  
 **Actual:** Two items out of order  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_04_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_04_fail.png)  
 **End Time:** 02-07-2025 14:27  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -50,7 +50,7 @@
 **Steps:** Switch between sort options  
 **Result:** FAIL  
 **Actual:** Random shuffle observed on second sort  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_05_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_05_fail.png)  
 **End Time:** 02-07-2025 14:31  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -61,7 +61,7 @@
 **Steps:** Sort then reload page  
 **Result:** FAIL  
 **Actual:** Sort resets to default  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_SORT_06_fail.png)  
+![Screenshot](./Screenshots/TC_Sort_06_fail.png)  
 **End Time:** 02-07-2025 14:35  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

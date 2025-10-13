@@ -21,7 +21,7 @@
 **Steps:** Click Cancel on overview  
 **Result:** FAIL  
 **Actual:** Returned to inventory, cart cleared  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_FINISH_02_fail.png)  
+![Screenshot](./Screenshots/TC_Finish_02_fail.png)  
 **End Time:** 02-07-2025 16:52  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -32,7 +32,7 @@
 **Steps:** Use browser back on success page  
 **Result:** FAIL  
 **Actual:** Navigated back to overview page  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_FINISH_03_fail.png)  
+![Screenshot](./Screenshots/TC_Finish_03_fail.png)  
 **End Time:** 02-07-2025 16:56  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 

@@ -21,7 +21,7 @@
 **Steps:** Leave FirstName blank  
 **Result:** FAIL  
 **Actual:** Generic “Error” toast shown without field reference  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CHECKOUT_INFO_02_fail.png)  
+![Screenshot](./Screenshots/TC_Checkout_Info_02_fail.png)  
 **End Time:** 02-07-2025 15:52  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
@@ -59,7 +59,7 @@
 **Steps:** Enter “ABCDE” in ZIP  
 **Result:** FAIL  
 **Actual:** No format validation, allowed to continue  
-![Screenshot](/SauceDemoTesting/ExecutionResults/Screenshots/TC_CHECKOUT_INFO_06_fail.png)  
+![Screenshot](./Screenshots/TC_Checkout_Info_06_fail.png)  
 **End Time:** 02-07-2025 16:08  
 **Environment:** Ubuntu 22.04 / Chrome 137.0.7151.119
 
